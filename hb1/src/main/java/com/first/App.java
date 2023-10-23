@@ -24,8 +24,9 @@ public class App
         
         Student student = new Student();
         
-        student.setFirstName("Nayan");
-        student.setLastName("Gupta");
+        student.setFirstName("Dipak");
+        student.setLastName("Patil");
+        student.setMarks(53);
         
         session.save(student);
         

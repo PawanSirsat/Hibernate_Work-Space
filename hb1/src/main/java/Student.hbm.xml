@@ -12,6 +12,8 @@
             
     <property name="firstName" type="java.lang.String"></property>  
     <property name="lastName" type="java.lang.String"></property>  
+     <property name="marks" type="java.lang.Integer"></property>  
+    
             
   </class>  
             

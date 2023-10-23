@@ -1,9 +1,17 @@
 package com.model;
 
 public class Student {
-	private int id;  
+	private int id,marks; 
+	
 	private String firstName,lastName;  
 	  
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	
 	public int getId() {  
 	    return id;  
 	}  
